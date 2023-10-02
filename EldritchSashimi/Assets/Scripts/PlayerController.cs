@@ -5,6 +5,13 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     private Vector2 move;
+    public CharacterController controller;
+
+    public void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -24,7 +31,13 @@ public class PlayerController : MonoBehaviour
         { 
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
         }
-        
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+
+        controller.Move(movement * speed * Time.deltaTime);
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
+        Debug.Log("Game quit");
     }
 }
