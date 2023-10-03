@@ -20,6 +20,8 @@ public class EnemyRanged : MonoBehaviour
 
     [SerializeField] private float AttackRange;
 
+    [SerializeField] private int  health = 3;
+
     void awake()
     {
         agent = GetComponent<NavMeshAgent>();

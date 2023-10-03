@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour
 
     public float speed;
 
-
+    [SerializeField] private int health = 3;
     void awake()
     {
         agent = GetComponent<NavMeshAgent>();
