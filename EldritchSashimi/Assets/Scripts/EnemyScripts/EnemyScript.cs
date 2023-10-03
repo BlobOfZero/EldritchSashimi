@@ -10,22 +10,57 @@ public class EnemyScript : MonoBehaviour
 
     public float speed;
 
+    [SerializeField] private LayerMask WhatIsPlayer;
+
+    [SerializeField] private bool IsChasing;
+
+    [SerializeField] private bool IsAttacking;
+
+    [SerializeField] private bool PlayerInAttackRange;
+
+    [SerializeField] private float AttackRange;
+  
+
     [SerializeField] private int health = 3;
+
     void awake()
     {
         agent = GetComponent<NavMeshAgent>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
+        AttackPlayerInRange();
+       
+
+    }
+
+   
+    void AttackPlayerInRange()
+    {
+        PlayerInAttackRange = Physics.CheckSphere(transform.position, AttackRange, WhatIsPlayer);
+
+        if (!PlayerInAttackRange)
+        {
+            IsAttacking = false;
+            IsChasing = true;
+            Chasing();
+        }
+
+        if (PlayerInAttackRange)
+        {
+            IsChasing = false;
+            IsAttacking = true;
+        }
+    }
+
+    void Chasing()
+    {
+        if (IsChasing)
+        {
+            agent.SetDestination(player.position);
+        }
         transform.LookAt(player);
-        agent.SetDestination(player.position);
     }
 }

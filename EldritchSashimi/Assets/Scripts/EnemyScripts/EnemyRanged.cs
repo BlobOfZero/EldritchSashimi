@@ -32,10 +32,30 @@ public class EnemyRanged : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AttackPlayerInRange();
+        TooClose();
+        
+    }
+
+
+
+    void TooClose()
+    {
+        float distance = Vector3.Distance (transform.position, player.transform.position);
+        if (distance < RunAwayDistance) 
+        {
+            Vector3 dirtoPlayer = transform.position - player.transform.position;
+            Vector3 newPos = transform.position + dirtoPlayer;
+            agent.SetDestination(newPos);
+        }
+    }
+
+    void AttackPlayerInRange()
+    {
         PlayerInAttackRange = Physics.CheckSphere(transform.position, AttackRange, WhatIsPlayer);
 
         if (!PlayerInAttackRange)
-        {            
+        {
             IsAttacking = false;
             IsChasing = true;
             Chasing();
@@ -45,10 +65,8 @@ public class EnemyRanged : MonoBehaviour
         {
             IsChasing = false;
             IsAttacking = true;
-        }           
-        
+        }
     }
-
 
     void Chasing()
     {

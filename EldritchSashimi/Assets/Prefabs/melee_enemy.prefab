@@ -143,5 +143,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: -1979919164039569069}
   player: {fileID: 0}
-  speed: 0
+  speed: 2
+  WhatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  IsChasing: 0
+  IsAttacking: 0
+  PlayerInAttackRange: 0
+  AttackRange: 3
   health: 3
