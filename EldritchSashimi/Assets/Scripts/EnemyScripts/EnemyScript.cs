@@ -32,7 +32,7 @@ public class EnemyScript : MonoBehaviour
     void Update()
     {
         AttackPlayerInRange();
-       
+        death();
 
     }
 
@@ -62,5 +62,13 @@ public class EnemyScript : MonoBehaviour
             agent.SetDestination(player.position);
         }
         transform.LookAt(player);
+    }
+
+    void death()
+    {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

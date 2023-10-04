@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4625334799833352044}
   - component: {fileID: 5881646888616433612}
   - component: {fileID: 1107924738119824378}
-  - component: {fileID: 5963925669344216033}
+  - component: {fileID: 1592081672574722681}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987513904094866421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.246, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -111,8 +111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  controller: {fileID: 5963925669344216033}
---- !u!143 &5963925669344216033
+  controller: {fileID: 1592081672574722681}
+--- !u!143 &1592081672574722681
 CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +159,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9a5b2367e45c52546bcf6d6dcd8a6fc8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5b2367e45c52546bcf6d6dcd8a6fc8,
         type: 3}

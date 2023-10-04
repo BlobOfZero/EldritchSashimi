@@ -22,6 +22,12 @@ public class EnemyRanged : MonoBehaviour
 
     [SerializeField] private float RunAwayDistance;
 
+    [SerializeField] private GameObject Projectile;
+
+    [SerializeField] private float RateOfAttacks;
+
+    [SerializeField] private GameObject firepoint;
+
     [SerializeField] private int  health = 3;
 
     void awake()
@@ -34,7 +40,7 @@ public class EnemyRanged : MonoBehaviour
     {
         AttackPlayerInRange();
         TooClose();
-        
+        death();
     }
 
 
@@ -55,26 +61,63 @@ public class EnemyRanged : MonoBehaviour
         PlayerInAttackRange = Physics.CheckSphere(transform.position, AttackRange, WhatIsPlayer);
 
         if (!PlayerInAttackRange)
-        {
-            IsAttacking = false;
-            IsChasing = true;
+        {                     
             Chasing();
         }
 
         if (PlayerInAttackRange)
         {
-            IsChasing = false;
-            IsAttacking = true;
+            Attacking();           
         }
     }
 
     void Chasing()
-    {
+    {           
         if (IsChasing) 
         {
-            agent.SetDestination(player.position);
-        }        
-        transform.LookAt(player);      
+            float distance = Vector3.Distance(transform.position, player.transform.position);
+            if (distance > AttackRange)
+            {
+                Vector3 dirtoPlayer = transform.position + player.transform.position;
+                Vector3 newPos = transform.position - dirtoPlayer;
+                agent.SetDestination(newPos);
+            }
+        }
+        IsChasing = true;
+        transform.LookAt(player);
     }
 
+
+    private void Attacking()
+    {
+        transform.LookAt(player);
+        if (IsAttacking != true)
+        {
+            //attack code here
+            Rigidbody rb = Instantiate(Projectile, firepoint.transform.position, firepoint.transform.rotation).GetComponent<Rigidbody>();
+            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+
+            //
+            Invoke(nameof(ResetAttack), RateOfAttacks);
+            IsAttacking = true;
+            //audioSource.clip = attackclip;
+            //audioSource.Play();
+            IsChasing = false;
+        }
+
+    }
+
+    private void ResetAttack()
+    {
+        IsAttacking = false;
+    }
+
+
+    void death()
+    {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
