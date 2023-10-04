@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(movement * speed * Time.deltaTime);
     }
 
-    public void QuitButton()
+    public void QuitButton() // Temp code for the exit button remove later.
     {
         Application.Quit();
         Debug.Log("Game quit");
