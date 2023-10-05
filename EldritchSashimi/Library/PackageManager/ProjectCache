@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/pa473756/Downloads/EldritchSashimi/EldritchSashimi/Packages/manifest.json
+    m_FilePath: C:/Users/Niki/OneDrive/Desktop/EldritchSashimi/EldritchSashimi/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638320462725727111
-    m_Hash: 3885418551
+      ticks: 638321154628875034
+    m_Hash: 3533656330
   m_LockFileStatus:
-    m_FilePath: C:/Users/pa473756/Downloads/EldritchSashimi/EldritchSashimi/Packages/packages-lock.json
+    m_FilePath: C:/Users/Niki/OneDrive/Desktop/EldritchSashimi/EldritchSashimi/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638320462725787107
-    m_Hash: 101761554
+      ticks: 638321154628880028
+    m_Hash: 200346727
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/pa473756/Downloads/EldritchSashimi/EldritchSashimi/Packages
+m_ProjectPath: C:/Users/Niki/OneDrive/Desktop/EldritchSashimi/EldritchSashimi/Packages
 m_EditorVersion: 2022.3.0f1 (fb119bb0b476)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.4
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.4
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ai.navigation@1.1.4
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ai.navigation@1.1.4
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -99,7 +99,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.9.7
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.cinemachine@2.9.7
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.cinemachine@2.9.7
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -268,7 +268,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.4
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.collab-proxy@2.0.4
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -277,7 +277,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
+  type: asset
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting plasticscm.com.
@@ -285,10 +285,84 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.3-preview
+    - 1.2.4-preview
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.11
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17-preview.3
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.9
+    - 1.5.7
+    - 1.6.0
+    - 1.7.1
+    - 1.8.0
+    - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.14.13
+    - 1.14.15
+    - 1.14.16
+    - 1.14.17
+    - 1.14.18
+    - 1.15.1
+    - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
+    - 1.15.13
+    - 1.15.15
+    - 1.15.16
+    - 1.15.17
+    - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
     - 2.0.4
+    - 2.0.5
+    - 2.0.7
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
+    - 2.1.0
     compatible:
     - 2.0.4
-    recommended: 2.0.4
+    - 2.0.5
+    - 2.0.7
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
+    - 2.1.0
+    recommended: 2.0.7
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -315,9 +389,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638176024310000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -338,7 +412,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.feature.mobile@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.feature.mobile@1.0.0
   assetPath: Packages/com.unity.feature.mobile
   name: com.unity.feature.mobile
   displayName: Mobile
@@ -415,7 +489,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.21
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ide.rider@3.0.21
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ide.rider@3.0.21
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -424,7 +498,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -432,10 +506,51 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
     - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
     compatible:
     - 3.0.21
-    recommended: 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    recommended: 3.0.25
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -452,9 +567,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638175749180000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
@@ -475,7 +590,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.18
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -484,7 +599,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -492,10 +607,34 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
     - 2.0.18
+    - 2.0.20
+    - 2.0.21
     compatible:
     - 2.0.18
-    recommended: 2.0.18
+    - 2.0.20
+    - 2.0.21
+    recommended: 2.0.21
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -518,9 +657,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
@@ -541,7 +680,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -550,7 +689,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -558,6 +697,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     - 1.2.5
     compatible:
     - 1.2.5
@@ -574,9 +725,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637800255360000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -597,7 +748,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.inputsystem@1.5.1
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.inputsystem@1.5.1
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -606,16 +757,61 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A new input system which can be used as a more extensible and customizable
     alternative to Unity's classic input system in UnityEngine.Input.
   status: 0
   errors: []
   versions:
     all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
     - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
     compatible:
     - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
     recommended: 1.5.1
     deprecated: []
   dependencies:
@@ -647,9 +843,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638152610980000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.5/manual/index.html
   hasRepository: 1
   repository:
@@ -670,7 +866,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -679,15 +875,74 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 0
   errors: []
   versions:
     all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
     - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     recommended: 1.1.33
     deprecated: []
   dependencies:
@@ -715,9 +970,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -738,7 +993,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -747,7 +1002,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -772,9 +1027,104 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
     - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
     recommended: 3.0.6
     deprecated: []
   dependencies:
@@ -801,9 +1151,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637547111200000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -824,7 +1174,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.4
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.timeline@1.7.4
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -833,17 +1183,106 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
   errors: []
   versions:
     all:
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
+    - 1.2.12
+    - 1.2.13
+    - 1.2.14
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17
+    - 1.2.18
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.5
+    - 1.4.0-preview.6
+    - 1.4.0-preview.7
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.5.0-pre.2
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.1-pre.1
+    - 1.5.1-pre.2
+    - 1.5.1-pre.3
+    - 1.5.2
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
     - 1.7.4
+    - 1.7.5
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
     compatible:
     - 1.7.4
-    recommended: 1.7.4
+    - 1.7.5
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    recommended: 1.7.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -877,9 +1316,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638143790870000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
@@ -900,7 +1339,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -993,7 +1432,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1012,6 +1451,8 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1062,7 +1503,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.visualscripting@1.8.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1088,11 +1529,32 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
+    - 1.7.8
+    - 1.8.0-pre.1
     - 1.8.0
+    - 1.9.0
+    - 1.9.1
     compatible:
     - 1.8.0
+    - 1.9.0
+    - 1.9.1
     recommended: 1.8.0
-    deprecated: []
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1118,7 +1580,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1139,7 +1601,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1194,7 +1656,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1248,7 +1710,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1303,7 +1765,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1358,7 +1820,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1413,7 +1875,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1472,7 +1934,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1535,7 +1997,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1591,7 +2053,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1646,7 +2108,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1701,7 +2163,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1756,7 +2218,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1811,7 +2273,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1866,7 +2328,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1925,7 +2387,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1980,7 +2442,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2043,7 +2505,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2101,7 +2563,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2156,7 +2618,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2223,7 +2685,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2278,7 +2740,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2341,7 +2803,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2396,7 +2858,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2459,7 +2921,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2522,7 +2984,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2585,7 +3047,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2664,7 +3126,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2723,7 +3185,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2790,7 +3252,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2859,7 +3321,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2914,7 +3376,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2981,7 +3443,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3040,7 +3502,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.7
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.sysroot@2.0.7
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.sysroot@2.0.7
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3119,7 +3581,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.6
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.6
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3199,7 +3661,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3208,16 +3670,29 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
   status: 0
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -3234,9 +3709,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637429759280000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3257,7 +3732,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.mobile.android-logcat@1.3.2
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.mobile.android-logcat@1.3.2
   assetPath: Packages/com.unity.mobile.android-logcat
   name: com.unity.mobile.android-logcat
   displayName: Android Logcat
@@ -3266,7 +3741,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "Android Logcat package provides support for:\n - Android log messages\n
     - Android application memory statistics\n - Android Screen Capture\n - Android
     Screen Recorder\n - Stacktrace Utility\n\nClick the 'View documentation' link
@@ -3278,6 +3753,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.2.7-preview
+    - 1.0.0
+    - 1.0.1-preview
+    - 1.0.3-preview
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-preview
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
     - 1.3.2
     compatible:
     - 1.3.2
@@ -3297,9 +3784,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637859722170000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3320,7 +3807,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.0.1
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.adaptiveperformance@4.0.1
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.adaptiveperformance@4.0.1
   assetPath: Packages/com.unity.adaptiveperformance
   name: com.unity.adaptiveperformance
   displayName: Adaptive Performance
@@ -3329,7 +3816,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The Adaptive Performance package provides an API to get feedback
     about the thermal and power state of mobile devices, enabling applications to
     make performance-relevant adaptions at runtime.
@@ -3346,9 +3833,60 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0-preview.5
+    - 1.1.0-preview.7
+    - 1.1.0
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.3
+    - 2.2.4
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0
     - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
     compatible:
     - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
     recommended: 4.0.1
     deprecated: []
   dependencies:
@@ -3391,9 +3929,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637940147290000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3414,7 +3952,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.2.0
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.mobile.notifications@2.2.0
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.mobile.notifications@2.2.0
   assetPath: Packages/com.unity.mobile.notifications
   name: com.unity.mobile.notifications
   displayName: Mobile Notifications
@@ -3423,7 +3961,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'Mobile Notifications package adds support for scheduling local repeatable
     or one-time notifications on iOS and Android.
 
@@ -3434,10 +3972,52 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.7
+    - 1.0.0-preview.8
+    - 1.0.0-preview.9
+    - 1.0.0-preview.10
+    - 1.0.0-preview.13
+    - 1.0.0-preview.17
+    - 1.0.0-preview.21
+    - 1.0.0-preview.23
+    - 1.0.2
+    - 1.0.3-preview
+    - 1.0.3-preview.3
+    - 1.0.3-preview.4
+    - 1.0.3-preview.5
+    - 1.0.3-preview.6
+    - 1.0.3
+    - 1.0.4-preview.1
+    - 1.0.4-preview.2
+    - 1.0.4-preview.3
+    - 1.0.4-preview.4
+    - 1.0.4-preview.5
+    - 1.0.4-preview.6
+    - 1.0.4-preview.9
+    - 1.1.0-preview
+    - 1.2.0-preview
+    - 1.2.1-preview
+    - 1.3.0
+    - 1.3.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
     - 2.2.0
+    - 2.2.1
+    - 2.2.2
     compatible:
     - 2.2.0
-    recommended: 2.2.0
+    - 2.2.1
+    - 2.2.2
+    recommended: 2.2.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.androidjni
@@ -3458,9 +4038,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638203602140000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mobile.notifications@2.2/manual/index.html
   hasRepository: 1
   repository:
@@ -3481,7 +4061,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.1
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.subsystemregistration@1.1.1
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.subsystemregistration@1.1.1
   assetPath: Packages/com.unity.subsystemregistration
   name: com.unity.subsystemregistration
   displayName: Subsystem Registration
@@ -3490,17 +4070,24 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Provides internal registration mechanism for standalone subsystems. 
     It allows a standalone subsystem to inform the Subsystem Manager of its existence.
   status: 0
   errors: []
   versions:
     all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.1.0
     - 1.1.1
+    - 1.1.2
     compatible:
     - 1.1.1
-    recommended: 1.1.1
+    - 1.1.2
+    recommended: 1.1.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.subsystems
@@ -3522,9 +4109,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637703478850000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3545,7 +4132,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.2
   source: 1
-  resolvedPath: C:\Users\pa473756\Downloads\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.profiling.core@1.0.2
+  resolvedPath: C:\Users\Niki\OneDrive\Desktop\EldritchSashimi\EldritchSashimi\Library\PackageCache\com.unity.profiling.core@1.0.2
   assetPath: Packages/com.unity.profiling.core
   name: com.unity.profiling.core
   displayName: Unity Profiling Core API
@@ -3554,13 +4141,18 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Profiling Core package provides an API for code instrumentation
     markup, and for profiling statistic collection.
   status: 0
   errors: []
   versions:
     all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
     - 1.0.2
     compatible:
     - 1.0.2
@@ -3580,9 +4172,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637828752310000000
   documentationUrl: 
   hasRepository: 1
   repository:
