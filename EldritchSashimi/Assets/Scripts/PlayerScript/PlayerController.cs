@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDamageablePlayer
 {
     public float speed;
     private Vector2 move;
     public CharacterController controller;
+
+    [SerializeField] private float health;
 
     public void Start()
     {
@@ -40,4 +42,10 @@ public class PlayerController : MonoBehaviour
         Application.Quit();
         Debug.Log("Game quit");
     }
+
+    public void DamagePlayer(float damageAmount)
+    {
+        health  -= damageAmount;
+    }
+
 }

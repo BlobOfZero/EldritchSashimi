@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6646732281544575962}
   - component: {fileID: 5233250583165734442}
   - component: {fileID: 6566003970972540870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: enemy ranged
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3374553548920157132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
