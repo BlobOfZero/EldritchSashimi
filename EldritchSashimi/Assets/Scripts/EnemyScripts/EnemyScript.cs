@@ -19,7 +19,7 @@ public class EnemyScript : MonoBehaviour
     [SerializeField] private bool PlayerInAttackRange;
 
     [SerializeField] private float AttackRange;
-  
+
 
     [SerializeField] private int health = 3;
 
@@ -36,7 +36,6 @@ public class EnemyScript : MonoBehaviour
 
     }
 
-   
     void AttackPlayerInRange()
     {
         PlayerInAttackRange = Physics.CheckSphere(transform.position, AttackRange, WhatIsPlayer);

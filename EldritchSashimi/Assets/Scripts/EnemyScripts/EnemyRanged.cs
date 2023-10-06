@@ -28,13 +28,13 @@ public class EnemyRanged : MonoBehaviour
 
     [SerializeField] private GameObject firepoint;
 
-    [SerializeField] private int  health = 3;
+    [SerializeField] private int health = 3;
 
     void awake()
     {
         agent = GetComponent<NavMeshAgent>();
     }
-   
+
     // Update is called once per frame
     void Update()
     {
@@ -47,8 +47,8 @@ public class EnemyRanged : MonoBehaviour
 
     void TooClose()
     {
-        float distance = Vector3.Distance (transform.position, player.transform.position);
-        if (distance < RunAwayDistance) 
+        float distance = Vector3.Distance(transform.position, player.transform.position);
+        if (distance < RunAwayDistance)
         {
             Vector3 dirtoPlayer = transform.position - player.transform.position;
             Vector3 newPos = transform.position + dirtoPlayer;
@@ -61,19 +61,19 @@ public class EnemyRanged : MonoBehaviour
         PlayerInAttackRange = Physics.CheckSphere(transform.position, AttackRange, WhatIsPlayer);
 
         if (!PlayerInAttackRange)
-        {                     
+        {
             Chasing();
         }
 
         if (PlayerInAttackRange)
         {
-            Attacking();           
+            Attacking();
         }
     }
 
     void Chasing()
-    {           
-        if (IsChasing) 
+    {
+        if (IsChasing)
         {
             float distance = Vector3.Distance(transform.position, player.transform.position);
             if (distance > AttackRange)
