@@ -37,7 +37,7 @@ Transform:
   - {fileID: 266936051064657134}
   - {fileID: 5829357080441650744}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5881646888616433612
 MonoBehaviour:
@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6eafea2f6c140f4cb732d3ea319f90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 0
+  timeRemaining: 10
+  maxTime: 10
   knifeAttackZone: {fileID: 0}
 --- !u!1 &2902743026683936486
 GameObject:
@@ -516,11 +517,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a5b2367e45c52546bcf6d6dcd8a6fc8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3655549897127515341}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a5b2367e45c52546bcf6d6dcd8a6fc8, type: 3}
 --- !u!4 &5874166338578089556 stripped
 Transform:
@@ -528,32 +525,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6201318513298923967}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6543426265350757614 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a5b2367e45c52546bcf6d6dcd8a6fc8,
-    type: 3}
-  m_PrefabInstance: {fileID: 6201318513298923967}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &3655549897127515341
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6543426265350757614}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 189.46045
-  m_Height: 519.2971
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.000015258789, z: -0.0000019073486}
