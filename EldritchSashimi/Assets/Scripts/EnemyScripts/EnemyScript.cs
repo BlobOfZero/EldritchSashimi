@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public class EnemyScript : MonoBehaviour
+public class EnemyScript : MonoBehaviour, IDamageable
 {
     public NavMeshAgent agent;
 
@@ -21,7 +21,7 @@ public class EnemyScript : MonoBehaviour
     [SerializeField] private float AttackRange;
 
 
-    [SerializeField] private int health = 3;
+    [SerializeField] private float health = 3;
 
     void awake()
     {
@@ -61,6 +61,12 @@ public class EnemyScript : MonoBehaviour
             agent.SetDestination(player.position);
         }
         transform.LookAt(player);
+    }
+
+    public void Damage(float damageAmount)
+    {
+        Debug.Log("Enemy damaged for" + damageAmount);
+        health -= damageAmount;
     }
 
     void death()

@@ -5,42 +5,51 @@ using UnityEngine.InputSystem;
 
 public class PlayerAttacks : MonoBehaviour
 {
-    public float timeRemaining = 10;
-    public float maxTime = 10;
-    public GameObject knifeAttackZone;
-    private bool timerIsRunning;
 
-    // Start is called before the first frame update
-    void Start()
+    public float countdownDuration = 5f;
+    public float pauseDuration = 2f;
+
+    private float currentTime;
+    private bool isCountingDown = true;
+    [SerializeField] private GameObject knifeRange;
+
+    private void Start()
     {
-        GetComponent<PlayerInput>();
-        knifeAttackZone.gameObject.SetActive(false);
-        timeRemaining = maxTime;
-        timerIsRunning = true;
+        // Start the countdown
+        currentTime = countdownDuration;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (timerIsRunning)
+        if (isCountingDown)
         {
-            if(timeRemaining > 0)
+            // Update the countdown timer
+            currentTime -= Time.deltaTime;
+            knifeRange.gameObject.SetActive(false);
+
+            // Check if the countdown is finished
+            if (currentTime <= 0f)
             {
-                timeRemaining -= Time.deltaTime;
-                knifeAttackZone.gameObject.SetActive(false);
-            }
-            else
-            {
-                ResetCooldown();
+                currentTime = 0f;
+                isCountingDown = false;
+
+                // Trigger an event or perform an action when the countdown finishes
+                
+                knifeRange.gameObject.SetActive(true);
+
+                // Start the pause timer
+                Invoke("StartCountdown", pauseDuration);
             }
         }
     }
 
-    private void ResetCooldown()
+    private void StartCountdown()
     {
-        timeRemaining = maxTime;
-        timerIsRunning = true;
-        knifeAttackZone.gameObject.SetActive(true);
-        Debug.Log("Time has started over");
+        // Reset the timer for the next countdown
+        currentTime = countdownDuration;
+        isCountingDown = true;
+
+        // Perform any actions needed before starting the countdown again
+        
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public class EnemyRanged : MonoBehaviour
+public class EnemyRanged : MonoBehaviour, IDamageable
 {
     public NavMeshAgent agent;
 
@@ -28,7 +28,7 @@ public class EnemyRanged : MonoBehaviour
 
     [SerializeField] private GameObject firepoint;
 
-    [SerializeField] private int health = 3;
+    [SerializeField] private float health = 3;
 
     void awake()
     {
@@ -112,6 +112,11 @@ public class EnemyRanged : MonoBehaviour
         IsAttacking = false;
     }
 
+    public void Damage(float damageAmount)
+    {
+        Debug.Log("Enemy damaged for" + damageAmount);
+        health -= damageAmount;
+    }
 
     void death()
     {

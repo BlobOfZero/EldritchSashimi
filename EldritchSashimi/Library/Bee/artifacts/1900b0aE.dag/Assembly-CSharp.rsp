@@ -378,6 +378,7 @@
 "Assets/Scripts/EnemyScripts/EnemyRanged.cs"
 "Assets/Scripts/EnemyScripts/EnemyScript.cs"
 "Assets/Scripts/EnemyScripts/EnemySpawnerScript.cs"
+"Assets/Scripts/MenuScripts/MainMenuScript.cs"
 "Assets/Scripts/PlayerScript/IDamageable.cs"
 "Assets/Scripts/PlayerScript/IDamageablePlayer.cs"
 "Assets/Scripts/PlayerScript/KnifeAttack.cs"

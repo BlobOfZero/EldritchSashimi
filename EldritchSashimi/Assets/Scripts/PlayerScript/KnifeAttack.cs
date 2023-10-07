@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class KnifeAttack : MonoBehaviour
 {
+    [SerializeField] private float knifeDamage;
     public void OnTriggerEnter(Collider other)
     {
-       IDamageable damageable = other.GetComponent<IDamageable>();
-
-        if (damageable == null) return;
-
-        damageable.Equals(1);
+        if (other.gameObject.tag == "Enemy")
+        {
+            if (other.gameObject.TryGetComponent(out IDamageable DamagePlayer))
+            Debug.Log("Enemy in range");
+        }
     }
 }
