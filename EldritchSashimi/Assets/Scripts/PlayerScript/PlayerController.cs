@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour, IDamageablePlayer
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        health = 3;
     }
 
     public void OnMove(InputAction.CallbackContext context)

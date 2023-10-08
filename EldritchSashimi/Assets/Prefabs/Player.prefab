@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdownDuration: 3
   pauseDuration: 1
-  knifeRange: {fileID: 0}
+  knifeRange: {fileID: 9183624284385817891}
 --- !u!1 &9183624284385817891
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33e15e42f485ebe4ea54e7374f4be4ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  knifeDamage: 0
 --- !u!1001 &413798222790069316
 PrefabInstance:
   m_ObjectHideFlags: 0
