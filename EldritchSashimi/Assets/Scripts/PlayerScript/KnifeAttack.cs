@@ -10,7 +10,7 @@ public class KnifeAttack : MonoBehaviour
         if (other.gameObject.TryGetComponent(out IDamageable Damage))
         {
             Damage.Damage(knifeDamage);
-            
+
         }
     }
 }
